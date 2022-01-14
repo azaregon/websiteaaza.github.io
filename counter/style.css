@@ -1,0 +1,40 @@
+body {
+    font-family: Montserrat;
+    text-align: center;
+    background: #1F2227;
+  }
+  
+  
+  
+  
+  #count {
+    /*border-style: solid;*/
+    color: #ebebeb;
+    font-size: 100px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .container {
+    display: table;
+  }
+  
+  .astrate {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  
+  #button {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    background: #00a5c2;
+    color: #ebebeb;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 100%;
+  }
+  
