@@ -1,0 +1,60 @@
+body {
+    font-family: Montserrat;
+    text-align: center;
+    background: #1F2227;
+    color: #ebebeb;
+    font-size: 25px;
+  }
+  
+  .counted {
+    font-size: 50px;
+  }
+  
+  #reset {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    font-family: Montserrat;
+    border: solid;
+    font-size: 20px;
+    font-weight: 800;
+    background: #1F2227;
+    color: #ebebeb;
+  }
+  
+  #rightclick {
+    width: 60px;
+    height: 25px;
+    font-family: Montserrat;font-weight: 1000;
+    color: #1F2227;
+    text-align: center;
+    font-size: 20px;
+    background: #ebebeb;
+    border-radius: 50%;
+  }
+  
+  #leftclick {
+    width: 60px;
+    height: 25px;
+    font-family: Montserrat;
+    font-weight: 1000;
+    color: #1F2227;
+    text-align: center;
+    font-size: 20px;
+    background: #ebebeb;
+    border-radius: 50%;
+  }
+  
+  #settingBtn {
+    font-size: 30px;
+    background:#1F2227;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+     
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
