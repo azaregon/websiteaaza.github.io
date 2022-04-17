@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<head>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+
+<body>
+  <div class="container">
+    <div id="text">
+      <p1 id="p" style="text-align:center; font-size:40px; font-weight:bold">hello</p1><br><br>
+      <p1 id="translate" style="text-align:center; font-size:25px;">this place belongs to translation</p1><br><br>
+      <p1 id="name" style="text-align:center; font-size:20px; font-weight:bold">surah : ayah</p1><br><br>
+    </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+
+<footer>
+  <div class="contain">
+    <div id="ArrowWrapper">
+        <div class="wrapper">
+        <!--<p>NAVIGATION</p>-->
+        <div class="arrow center">
+          <div id="button-left">
+            <button class="button" type="button" onclick="nav('left')"> < </button>
+            <br><p style="font-size:10px;">previous</p>
+          </div>
+
+          <div id="button-right">
+            <button class="button" type="button" onclick="nav('right')"> > </button>
+            <br><p style="font-size:10px;">next</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="entries">
+      <div class="wrapper">
+        <!--<p>jump to</p>-->
+        <p1>jump </p1>
+        <input type="text" class="entry" id="surah">
+        <p1> : </p1>
+        <input type="text" class="entry" id = "ayah">
+        <button id="getvalue" class="button" onclick="get_entry()">Go</button>
+      </div>
+    </div>
+
+    <div class="logo">
+      <div class="wrapper">
+        <p1>simple</p1><br>
+        <p1>Quran</p1>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
