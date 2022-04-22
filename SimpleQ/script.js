@@ -84,6 +84,20 @@ function nav(direction) {
   get(surah_now,ayah_now)
 
 }
+function download(){
+   html2canvas(document.querySelector('.specific')).then(canvas => {
+
+    var link = document.createElement("a");
+    link.download = `SimpleQuran ${surah_now}: ${ayah_now}`;
+    link.href = Canvas2Image.convertToPNG(canvas,canvas.width,canvas.height).src;
+    link.click();
+    //canvas.toBlob(function(blob) {
+    //  var link=window.URL.createObjectURL(blob);
+    //  window.location=link;
+    //});
+   });
+}
+
 function get_entry(){
   surahGet = document.getElementById("surah").value;
   ayahGet = document.getElementById("ayah").value;
@@ -99,16 +113,4 @@ function get_entry(){
 
 }
 
-function download(){
-   html2canvas(document.querySelector('.specific')).then(canvas => {
 
-    var link = document.createElement("a");
-    link.download = `SimpleQuran ${surah_now}: ${ayah_now}`;
-    link.href = Canvas2Image.convertToPNG(canvas,canvas.width,canvas.height).src;
-    link.click();
-    //canvas.toBlob(function(blob) {
-    //  var link=window.URL.createObjectURL(blob);
-    //  window.location=link;
-    //});
-   });
-}
