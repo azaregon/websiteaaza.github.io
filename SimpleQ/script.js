@@ -99,8 +99,6 @@ function get_entry(){
 
 }
 
-
-
 function download ()  {
    html2canvas(document.querySelector('.specific')).then(canvas => {
 
