@@ -101,7 +101,7 @@ function get_entry(){
 
 }
 
-function download(){
+function download () {
    html2canvas(document.querySelector('.specific')).then(canvas => {
 
     var link = document.createElement("a");
@@ -112,6 +112,6 @@ function download(){
     //  var link=window.URL.createObjectURL(blob);
     //  window.location=link;
     //});
-   });
+});
 }
 
