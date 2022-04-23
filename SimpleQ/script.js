@@ -9,7 +9,7 @@ var totalAyah_now = 0;
 function QuranTextHandling(data) {
   //console.log(text);
   //nothing specials
-  //alert("TextHandling is called");
+  
   var dataArabic = data['data'][0];
   var surah_arabic = dataArabic['text'];
   var surah_name = dataArabic['surah']['englishName'];
@@ -38,7 +38,7 @@ function translationHandling(data){
 async function get(surah,ayah) {
     //console.log("hello world")
 
-    //alert("'get' function is getting called");
+    
     var response = await fetch(`http://api.alquran.cloud/v1/ayah/${surah}:${ayah}/editions/quran-uthmani,en.asad,en.pickthall`);
 
     //console.log(response.status);
