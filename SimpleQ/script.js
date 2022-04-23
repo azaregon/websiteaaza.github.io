@@ -8,6 +8,7 @@ var totalAyah_now = 0;
 
 function QuranTextHandling(data) {
   //console.log(text);
+  //nothing specials
   //alert("TextHandling is called");
   var dataArabic = data['data'][0];
   var surah_arabic = dataArabic['text'];
